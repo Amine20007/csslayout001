@@ -1,0 +1,372 @@
+header img {
+  width: 270px;
+  height: 40px
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  width: 1400px;
+  background-color:white;
+  top:0;
+  padding: 20px;
+}
+.nav {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  
+}
+#Ab{
+  text-decoration: none;
+  color: rgb(0, 147, 147);
+}
+
+#Car:hover{
+  
+  color: rgb(0, 147, 147);
+  
+}
+#Dep:hover
+{
+  
+  color: rgb(0, 147, 147);
+}
+.nav a {
+  text-decoration: none;
+}
+#Dep,
+#Car{
+  color: grey;
+}
+
+.partie1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+.partie1 img{
+  width: 50px;
+    height: 40px;
+
+}
+#title{
+  font-size: 30px;
+  padding-top:10px;
+  color: rgb(18, 177, 162);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paragraphs{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 120x;
+  color: lightslategrey;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  
+}
+.partie2{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: 300;
+    
+}
+.cadre1{
+  display: flex;
+  background-color: #09e6c8;
+  flex-direction: column;
+  height: 300px;
+  width: 200px;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 20px;
+  
+  
+  
+  
+}
+.cadre2{
+  display: flex;
+  background-color: #4591f4;
+  flex-direction: column;
+  height: 300px;
+  width: 200px;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 20px;
+}
+.cadre3{
+  display: flex;
+  background-color: #1b2734;
+  flex-direction: column;
+  height: 300px;
+  width: 200px;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 20px;
+
+}
+.cadre1 select{
+  margin-bottom: 30px;
+  text-decoration:underline;
+  border: none;
+  background-color: transparent;
+}
+.cadre2 select{
+  margin-bottom: 30px;
+  text-decoration:underline;
+  border: none;
+  background-color: transparent;
+  
+}
+.cadre3 select{
+  margin-bottom: 30px;
+  text-decoration:underline;
+  border: none;
+  background-color: transparent;
+  
+}
+#title1,
+#title2,
+#title3
+{
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .a option{
+  background-color: #ffffff;
+}
+.partie3{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partie3 div{
+  display: flex;
+  width: 50%;
+}
+.souparti3{
+  font-size: 35px;
+  padding-right: 10px;
+  color: #04c9af;
+  font-weight: 300;
+  font-family: sans-serif
+}
+.logo3{
+  display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+
+}
+.logo3 img{
+  object-fit: contain;
+  width: 100px;
+}
+.partie4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  background-color: #ccfcf5;
+  padding-left: 50px
+}
+.souparti4{
+  font-family: 'Times New Roman', Times, serif;
+  padding: top 70px;
+}
+.souparti4 {
+  font-family: sans-serif;
+  padding-top: 60px;
+}
+.souparti4 h2 {
+  color: #07c1a8;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  padding-left: 50px;
+}
+.souparti4 p {
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #747474;
+  padding-bottom: 50px;
+}
+.first2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.second2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.sousoupart4 {
+  display: flex;
+  margin-right: 50px;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+.sousoupart4 h3 {
+  font-size: 25px;
+  color: #08b69e;
+  font-weight: 300;
+  font-family:  Arial, sans-serif;
+
+}
+.sousoupart4s p {
+  font-size: 0.8125em;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+#leader {
+  margin-bottom: 20px;
+}
+#appointments {
+  margin-bottom: 20px;
+}
+#leader,
+#patients,
+#appointments,
+#doctors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  width: 220px;
+  border-radius: 2px;
+}
+#leader img,
+#patients img,
+#appointments img,
+#doctors img {
+  width: 25px;
+  height: auto;
+}
+.sousoupart4 div {
+  height: 500px;
+  width: 250px;
+}
+.partie5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  width: 100%;
+}
+.partie5 h3{
+  font-size: 45px;
+  color: #0cdbbf;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  
+  text-align: center;
+}
+.partie5 p {
+  margin: 20px;;
+    text-align: center;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    color: #858383;
+  
+}
+.partie6{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 10px;
+  
+}
+.pays{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    padding-left: 240;
+    padding-right: 240px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.partie6 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #1868d1;
+  border-radius: 5px;
+ padding-top: 10px;
+  font-family: Arial, sans-serif;
+  margin-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px
+    padiing top 20px;
+  
+   
+  
+}
+div .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.partie6 p {
+  font-size: medium;
+    color: #949191;
+    font-family: Arial, sans-serif;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.partie7{display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+
+}
+.partie7 h1 {
+  text-align: center;
+  color: #5b5959;
+  font-weight: 400;
+}
+.partie7 button {
+  text-align:  center;
+  font-family:sans-serif;
+  border-radius: 6px;
+  font-weight: 800;
+  background-color: #2d80ec;
+  padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+footer {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  color: #b7b6b6;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+footer p {
+  padding-top: 35px;
+}
+
